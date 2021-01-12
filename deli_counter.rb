@@ -32,10 +32,9 @@ def now_serving(katz_deli)
   if katz_deli.count < 1
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{katz_deli.first}"
-    puts "#{katz_deli}"
+    #puts "Currently serving #{katz_deli.first}"
+    #puts "#{katz_deli}"
     katz_deli.shift
-    puts "#{new_array}"
   end
 end
 now_serving(katz_deli)
