@@ -34,7 +34,7 @@ def now_serving(katz_deli)
   else
     puts "Currently serving #{katz_deli.first}"
     puts "#{katz_deli}"
-    new_array= katz_deli.shift
+    new_array = katz_deli.shift
     puts "#{new_array}"
   end
 end
