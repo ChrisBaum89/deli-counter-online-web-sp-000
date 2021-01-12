@@ -28,12 +28,13 @@ end
 
 katz_deli = ["Dave", "Ava"]
 def now_serving(katz_deli)
+  new_array = Array.new
   if katz_deli.count < 1
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{katz_deli.first}"
-    katz_deli = katz_deli.shift
-    puts "#{katz_deli}"
+    new_array= katz_deli.shift
+    puts "#{new_array}"
   end
 end
 now_serving(katz_deli)
