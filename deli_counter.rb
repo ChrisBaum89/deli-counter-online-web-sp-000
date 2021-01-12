@@ -26,12 +26,13 @@ def take_a_number(katz_deli, name)
 end
 #take_a_number(katz_deli, name)
 
+katz_deli = ["Dave", "Ava"]
 def now_serving(katz_deli)
   if katz_deli.count < 1
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{katz_deli.first}"
-    katz_deli.shift
+    katz_deli = katz_deli.shift
   end
 
 end
