@@ -17,7 +17,7 @@ def line(katz_deli)
   end
 end
 
-katz_deli = ["Logan", "Avi", "Spencer"]
+katz_deli = [""]
 name = "Ada"
 def take_a_number(katz_deli, name)
   number = katz_deli.count + 1
