@@ -33,6 +33,7 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{katz_deli.first}"
+    puts "#{katz_deli}"
     new_array= katz_deli.shift
     puts "#{new_array}"
   end
