@@ -21,6 +21,7 @@ katz_deli = [""]
 name = "Ada"
 def take_a_number(katz_deli, name)
   number = katz_deli.count
+  katz_deli << name
   puts "Welcome, #{name}. You are number #{number} in line."
 end
 take_a_number(katz_deli, name)
