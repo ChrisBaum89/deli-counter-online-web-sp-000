@@ -17,13 +17,13 @@ def line(katz_deli)
   end
 end
 
-#katz_deli = [""]
-#name = "Ada"
+katz_deli = [""]
+name = "Ada"
 def take_a_number(katz_deli, name)
   number = katz_deli.count + 1
   puts "Welcome, #{name}. You are number #{number} in line."
 end
-#take_a_number(katz_deli, name)
+take_a_number(katz_deli, name)
 
 def now_serving(katz_deli)
 
