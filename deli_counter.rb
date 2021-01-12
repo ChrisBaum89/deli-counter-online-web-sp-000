@@ -1,5 +1,5 @@
 # Write your code here.
-katz_deli = ["Logan", "Avi", "Spencer"]
+#katz_deli = ["Logan", "Avi", "Spencer"]
 def line(katz_deli)
   line_count = katz_deli.count
   new_array = Array.new
@@ -14,13 +14,13 @@ def line(katz_deli)
       line_num += 1
       index_count += 1
     end
-    #puts "The line is currently: #{new_array.join}"
+    puts "The line is currently: #{new_array.join}"
     #puts "The line is currently: 1. Logan 2. Avi 3. Spencer"
-    puts "#{new_array}"
+    #puts "#{new_array}"
 
   end
 end
-line(katz_deli)
+#line(katz_deli)
 
 def take_a_number(katz_deli, name)
   number = katz_deli.count + 1
