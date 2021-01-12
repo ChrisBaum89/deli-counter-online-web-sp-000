@@ -26,7 +26,7 @@ def take_a_number(katz_deli, name)
 end
 #take_a_number(katz_deli, name)
 
-katz_deli = ["Dave", "Ava"]
+#katz_deli = ["Dave", "Ava"]
 def now_serving(katz_deli)
   new_array = Array.new
   if katz_deli.count < 1
@@ -37,4 +37,4 @@ def now_serving(katz_deli)
     katz_deli.shift
   end
 end
-now_serving(katz_deli)
+#now_serving(katz_deli)
