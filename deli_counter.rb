@@ -10,11 +10,11 @@ def line(katz_deli)
     index_count = 0
     line_num = index_count + 1
     new_array.each do |i|
-      new_array[index_count] = "#{line_num}. #{i}"
+      new_array[index_count] = " #{line_num}. #{i}"
       line_num += 1
       index_count += 1
     end
-    puts "The line is currently: #{new_array.join}"
+    puts "The line is currently:#{new_array.join}"
     #puts "The line is currently: 1. Logan 2. Avi 3. Spencer"
     #puts "#{new_array}"
 
