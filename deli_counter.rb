@@ -20,7 +20,7 @@ end
 #katz_deli = [""]
 #name = "Ada"
 def take_a_number(katz_deli, name)
-  number = katz_deli.count
+  number = katz_deli.count + 1
   puts "Welcome, #{name}. You are number #{number} in line."
 end
 #take_a_number(katz_deli, name)
