@@ -34,5 +34,5 @@ def now_serving(katz_deli)
     puts "Currently serving #{katz_deli.first}"
     katz_deli = katz_deli.shift
   end
-
 end
+katz_deli
