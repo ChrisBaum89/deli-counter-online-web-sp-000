@@ -27,5 +27,9 @@ end
 #take_a_number(katz_deli, name)
 
 def now_serving(katz_deli)
-
+  if katz_deli.count < 1
+    puts "There is nobody waiting to be served!"
+  else
+  end
+  
 end
