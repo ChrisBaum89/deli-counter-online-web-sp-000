@@ -33,6 +33,7 @@ def now_serving(katz_deli)
   else
     puts "Currently serving #{katz_deli.first}"
     katz_deli = katz_deli.shift
+    puts "#{katz_deli}"
   end
 end
 now_serving(katz_deli)
